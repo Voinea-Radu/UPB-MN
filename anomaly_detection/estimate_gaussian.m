@@ -2,4 +2,6 @@
 function [mean_values variances] = estimate_gaussian(X)
     % mean_values = zeros(1,1);
     % variances = zeros(1,1);
+    mean_values = mean(X);
+    variances = var(X);
 endfunction

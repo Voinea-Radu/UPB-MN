@@ -1,0 +1,80 @@
+
+================================================================================
+The Numerical Methods team reserves its right to change your final score in case
+anything suspicious is found in the source code.
+
+Please refer to the course's guidelines for more info.
+================================================================================
+
+Task 1. Anomaly Detection
+-------------------------
+
+[estimate_gaussian_1]: 0p / 1p (WA)
+[estimate_gaussian_2]: 1p / 1p (OK)
+[estimate_gaussian_3]: 1p / 1p (OK)
+[estimate_gaussian_4]: 1p / 1p (OK)
+[estimate_gaussian_5]: 1p / 1p (OK)
+[multivariate_gaussian_1]: 0p / 1p (WA)
+[multivariate_gaussian_2]: 0p / 1p (WA)
+[multivariate_gaussian_3]: 0p / 1p (WA)
+[multivariate_gaussian_4]: 0p / 1p (WA)
+[multivariate_gaussian_5]: 0p / 1p (WA)
+[optimal_threshold_1]: 0p / 1p (WA)
+[optimal_threshold_2]: 0p / 1p (WA)
+[optimal_threshold_3]: 0p / 1p (WA)
+[optimal_threshold_4]: 0p / 1p (WA)
+[optimal_threshold_5]: 0p / 1p (WA)
+[identify_outliers_1]: 0p / 1p (WA)
+[identify_outliers_2]: 0p / 1p (WA)
+[identify_outliers_3]: 0p / 1p (WA)
+[identify_outliers_4]: 0p / 1p (WA)
+[identify_outliers_5]: 0p / 1p (WA)
+
+=> TOTAL: 4p / 20p
+
+
+Task 2. Kernel Regression
+-------------------------
+
+[test-kernel-functions]: 0p / 1p (WA)
+[build-kernel1]: 0p / 1p (WA)
+[build-kernel2]: 0p / 1p (WA)
+[build-kernel3]: 0p / 1p (WA)
+[build-kernel4]: 0p / 1p (WA)
+[test-cholesky-func]: 0p / 0.5p (WA)
+[test-lower-inverse]: 0p / 0.5p (WA)
+[test-get-prediction-params]: 0p / 2p (WA)
+[test-get-prediction-params2]: 0p / 2p (WA)
+[test-get-prediction-params-iter]: 0p / 2p (WA)
+[test-get-prediction-params-iter2]: 0p / 3p (WA)
+[test-dataset1]: 0p / 5p (WA)
+[test-dataset2]: 0p / 5p (WA)
+[test-dataset3]: 0p / 5p (WA)
+[test-dataset4]: 0p / 5p (WA)
+
+=> TOTAL: 0p / 35.0p
+
+
+Task 3. Stochastic Text Generation
+----------------------------------
+
+[test-split-input]: 1p / 1p (OK)
+[test-piatza-distinct-words]: 0p / 2p (WA)
+[test-abc-distinct-words]: 0p / 1p (WA)
+[test-abc-k-secv-2]: 0p / 3p (WA)
+[test-abc-k-secv-3]: 0p / 3p (WA)
+[test-abc-distinct-k-secv]: 0p / 3p (WA)
+[test-poe-distinct-k-secv-and-distinct-words]: 0p / 3p (WA)
+[test-poe-word-idx]: 0p / 4p (WA)
+[test-poe-word-idx-and-k-secv-idx]: 0p / 4p (WA)
+[test-abc-stochastic-matrix]: 0p / 5p (WA)
+[test-poe-stochastic-matrix]: 0p / 7p (WA)
+[test-jekyllandhyde-stochastic-matrix]: 0p / 9p (WA)
+
+=> TOTAL: 1p / 45p
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+FINAL SCORE: 5p / 100.0p
+Up to 10p can be awarded for providing a good README and clean code!
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
