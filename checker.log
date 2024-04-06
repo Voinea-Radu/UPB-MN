@@ -9,7 +9,7 @@ Please refer to the course's guidelines for more info.
 Task 1. Anomaly Detection
 -------------------------
 
-[estimate_gaussian_1]: 0p / 1p (WA)
+[estimate_gaussian_1]: 1p / 1p (OK)
 [estimate_gaussian_2]: 1p / 1p (OK)
 [estimate_gaussian_3]: 1p / 1p (OK)
 [estimate_gaussian_4]: 1p / 1p (OK)
@@ -30,7 +30,7 @@ Task 1. Anomaly Detection
 [identify_outliers_4]: 0p / 1p (WA)
 [identify_outliers_5]: 0p / 1p (WA)
 
-=> TOTAL: 4p / 20p
+=> TOTAL: 5p / 20p
 
 
 Task 2. Kernel Regression
@@ -74,7 +74,7 @@ Task 3. Stochastic Text Generation
 => TOTAL: 1p / 45p
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-FINAL SCORE: 5p / 100.0p
+FINAL SCORE: 6p / 100.0p
 Up to 10p can be awarded for providing a good README and clean code!
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
