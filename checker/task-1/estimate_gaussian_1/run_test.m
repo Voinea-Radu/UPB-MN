@@ -5,12 +5,12 @@ function run_test()
     load("../../input/task1/test_1.mat");
     load("../../input/task1/ref_1.mat");
 
-    addpath("../../../anomaly_detection/");
+    % addpath("../../../anomaly_detection/");
+
+    [_mean_values _variances] = estimate_gaussian(X)
 
     % display(mean_values);
     % display(variances);
-
-    [_mean_values _variances] = estimate_gaussian(X)
 
     if __equal(_mean_values, mean_values) == 1 && __equal(_variances, variances) == 1
         fprintf(fout, "%d", 1);
@@ -18,7 +18,6 @@ function run_test()
         fprintf(fout, "%d", 0);
     endif 
 
-    
     fclose(fout);
     
 endfunction

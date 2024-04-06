@@ -1,33 +1,31 @@
 % Această funcție va determina media și varianța pentru datasetul dat.
 function [mean_values variances] = estimate_gaussian(X)
-    mean_values = zeros(1,2);
-    variances = zeros(1,2);
+    mean_values = zeros(2,1);
+    variances = zeros(2,2);
 
-    n = size(X, 2);
-    m = size(X, 1);
+    [m n] = size(X);
 
-    for i = 1:n
-        for k = 1:m
-            x = X(k, i);
-            mean_values(1,i) += x;
-        endfor
+    for k = 1:m
+        x = transpose(X(k,:));
+        mean_values += x;
     endfor
 
-    mean_values = mean_values / m;
+    mean_values ./= m;
 
-    for i = 1:m
-        tmp_1 = X(i, :) - mean_values;
-        tmp_2 = transpose(tmp_1);
-        variances += tmp_2 * tmp_1;
+    for i =1:m
+        x = transpose(X(i,:));
+        tmp = x - mean_values;
+        variances += tmp * transpose(tmp);
     endfor
 
-    variances = variances / m;
-    
+    variances ./= m;
+
     tmp_variances = zeros(1,2);
-    for i = 1:n
-        tmp_variances(1,i) = variances(i,i);
-    endfor
-    
-    variances = tmp_variances;
 
+    for i = 1:n
+        tmp_variances(i) = variances(i,i);
+    endfor
+
+    mean_values = transpose(mean_values);
+    variances = tmp_variances;
 endfunction
