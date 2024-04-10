@@ -20,12 +20,5 @@ function [mean_values variances] = estimate_gaussian(X)
 
     variances ./= m;
 
-    tmp_variances = zeros(1,2);
-
-    for i = 1:n
-        tmp_variances(i) = variances(i,i);
-    endfor
-
     mean_values = transpose(mean_values);
-    variances = tmp_variances;
 endfunction
