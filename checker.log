@@ -45,14 +45,14 @@ Task 2. Kernel Regression
 [test-lower-inverse]: 0.5p / 0.5p (OK)
 [test-get-prediction-params]: 2p / 2p (OK)
 [test-get-prediction-params2]: 2p / 2p (OK)
-[test-get-prediction-params-iter]: 0p / 2p (WA)
-[test-get-prediction-params-iter2]: 0p / 3p (WA)
+[test-get-prediction-params-iter]: 2p / 2p (OK)
+[test-get-prediction-params-iter2]: 3p / 3p (OK)
 [test-dataset1]: 5p / 5p (OK)
-[test-dataset2]: 0p / 5p (WA)
+[test-dataset2]: 5p / 5p (OK)
 [test-dataset3]: 5p / 5p (OK)
 [test-dataset4]: 5p / 5p (OK)
 
-=> TOTAL: 25.0p / 35.0p
+=> TOTAL: 35.0p / 35.0p
 
 
 Task 3. Stochastic Text Generation
@@ -74,7 +74,7 @@ Task 3. Stochastic Text Generation
 => TOTAL: 1p / 45p
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-FINAL SCORE: 46.0p / 100.0p
+FINAL SCORE: 56.0p / 100.0p
 Up to 10p can be awarded for providing a good README and clean code!
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
