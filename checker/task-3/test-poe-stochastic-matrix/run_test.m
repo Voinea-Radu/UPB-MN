@@ -14,6 +14,9 @@ function run_test()
     _kv = kscvidx.values;
     _stoch = stochastic_matrix(k_secv_corpus, corpus, word_set, k_secv_set, k);
 
+    stoch=stoch
+    _stoch=_stoch
+
 
     save("ouput.mat", "_stoch", "_wk", "_wv", "_kk", "_kv")
     load("../../input/task3/ref/11_ref_poe_stochastic_matrix.mat")

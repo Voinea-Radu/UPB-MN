@@ -18,6 +18,9 @@ function run_test()
     save("ouput.mat", "_stoch", "_wk", "_wv", "_kk", "_kv")
     load("../../input/task3/ref/10_ref_abc_stochastic_matrix.mat")
 
+    stoch=stoch
+    _stoch=_stoch
+
     if isequal(wv, _wv) && isequal(wk, _wk) && isequal(kk, _kk) && isequal(kv, _kv) && isequal(stoch, _stoch)
         fprintf(fout, "1");
     else

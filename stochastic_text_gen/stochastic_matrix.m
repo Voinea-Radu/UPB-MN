@@ -5,7 +5,7 @@ function retval = stochastic_matrix(k_secv_corpus, corpus_words, words_set, k_se
     % It should just be entry-wise
     % This is how the checker tests it, to not have to deal with floating point errors
     % Initialize the stochastic matrix
-    stochastic_matrix = zeros(length(words_set), length(corpus_words) - k);
+    stochastic_matrix = zeros(length(corpus_words) - k - 1, length(words_set));
 
     % Iterate through each k-secvent in the corpus
     for i = 1:length(k_secv_corpus)
@@ -16,12 +16,13 @@ function retval = stochastic_matrix(k_secv_corpus, corpus_words, words_set, k_se
         next_word_index = find(ismember(words_set, corpus_words{i+k}));
 
         % Increment the corresponding entry in the stochastic matrix
-        stochastic_matrix(next_word_index, k_secv_index) = stochastic_matrix(next_word_index, k_secv_index) + 1;
+        stochastic_matrix(k_secv_index, next_word_index) = stochastic_matrix(k_secv_index, next_word_index) + 1;
     end
 
     % Normalize the stochastic matrix
-    stochastic_matrix = stochastic_matrix ./ sum(stochastic_matrix, 1);
+    % stochastic_matrix = stochastic_matrix ./ sum(stochastic_matrix, 1);
 
-    % Return the stochastic matrix
-    retval = stochastic_matrix;
+    % return the stochastic matrix as Compressed Column Sparse format
+    retval = sparse(stochastic_matrix);
+    %retval = stochastic_matrix;
 end
