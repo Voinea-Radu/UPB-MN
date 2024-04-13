@@ -68,13 +68,15 @@ Task 3. Stochastic Text Generation
 [test-poe-word-idx]: 4p / 4p (OK)
 [test-poe-word-idx-and-k-secv-idx]: 4p / 4p (OK)
 [test-abc-stochastic-matrix]: 5p / 5p (OK)
-[test-poe-stochastic-matrix]: 0p / 7p (WA)
-[test-jekyllandhyde-stochastic-matrix]: 0p / 9p (WA)
+[test-poe-stochastic-matrix]: 7p / 7p (OK)
+[test-jekyllandhyde-stochastic-matrix]: 9p / 9p (OK)
 
-=> TOTAL: 29p / 45p
+=> TOTAL: 45p / 45p
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-FINAL SCORE: 84.0p / 100.0p
+FINAL SCORE: 100.0p / 100.0p
+Congratulations, you did it!
+
 Up to 10p can be awarded for providing a good README and clean code!
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
