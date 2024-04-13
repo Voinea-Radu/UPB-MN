@@ -42,17 +42,17 @@ Task 2. Kernel Regression
 [build-kernel3]: 1p / 1p (OK)
 [build-kernel4]: 1p / 1p (OK)
 [test-cholesky-func]: 0.5p / 0.5p (OK)
-[test-lower-inverse]: 0p / 0.5p (WA)
+[test-lower-inverse]: 0.5p / 0.5p (OK)
 [test-get-prediction-params]: 0p / 2p (WA)
 [test-get-prediction-params2]: 0p / 2p (WA)
 [test-get-prediction-params-iter]: 0p / 2p (WA)
 [test-get-prediction-params-iter2]: 0p / 3p (WA)
-[test-dataset1]: 0p / 5p (WA)
+[test-dataset1]: 5p / 5p (OK)
 [test-dataset2]: 0p / 5p (WA)
 [test-dataset3]: 0p / 5p (WA)
-[test-dataset4]: 0p / 5p (WA)
+[test-dataset4]: 5p / 5p (OK)
 
-=> TOTAL: 5.5p / 35.0p
+=> TOTAL: 16.0p / 35.0p
 
 
 Task 3. Stochastic Text Generation
@@ -74,7 +74,7 @@ Task 3. Stochastic Text Generation
 => TOTAL: 1p / 45p
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-FINAL SCORE: 26.5p / 100.0p
+FINAL SCORE: 37.0p / 100.0p
 Up to 10p can be awarded for providing a good README and clean code!
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 

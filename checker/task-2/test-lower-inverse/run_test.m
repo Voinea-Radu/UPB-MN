@@ -5,6 +5,9 @@ function run_test()
 
     [L1] = cholesky(A);
 	[P1] = get_lower_inverse(L1);
+
+    P1=P1
+
     n1 = size(L1, 1);
     
     for i = 1 : n1
@@ -17,6 +20,8 @@ function run_test()
     
     [L1] = cholesky(B);
 	[P1] = get_lower_inverse(L1);
+
+
     n1 = size(L1, 1);
     
     for i = 1 : n1
@@ -29,6 +34,8 @@ function run_test()
     
     [L1] = cholesky(C);
 	[P1] = get_lower_inverse(L1);
+
+    P1=P1
 	
     n1 = size(L1, 1);
     
