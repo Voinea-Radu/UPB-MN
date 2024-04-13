@@ -6,6 +6,9 @@ function run_test()
     _k_secv_corpus = k_secv(corpus, k);
     load("../../input/task3/ref/4_ref_abc_k_secv_2.mat")
     save("ouput.mat", "_k_secv_corpus")
+
+    _k_secv_corpus=_k_secv_corpus
+    k_secv_corpus=k_secv_corpus
     
     if isequal(_k_secv_corpus, k_secv_corpus)
         fprintf(fout, "1");

@@ -1,269 +1,230 @@
-# Created by Octave 6.4.0, Sat Apr 13 19:26:20 2024 EEST <root@workstation>
+# Created by Octave 6.4.0, Sat Apr 13 19:32:56 2024 EEST <root@workstation>
 # name: _k_secv_corpus
 # type: cell
-# rows: 1
-# columns: 33
+# rows: 32
+# columns: 1
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-ab
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-bc
-
+# length: 3
+a b
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-cd
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-de
-
+# length: 3
+b c
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-ef
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-fg
-
+# length: 3
+c d
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-gh
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-hi
-
+# length: 3
+d e
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-ij
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-jk
-
+# length: 3
+e f
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-kl
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-lm
-
+# length: 3
+f g
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-mn
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-no
-
+# length: 3
+g h
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-op
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-pq
-
+# length: 3
+h i
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-qr
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-rs
-
+# length: 3
+i j
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-st
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-tu
-
+# length: 3
+j k
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-uv
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-vw
-
+# length: 3
+k l
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-wx
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-xy
-
+# length: 3
+l m
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-yz
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-zm
-
+# length: 3
+m n
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-mn
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-nr
-
+# length: 3
+n o
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-ru
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-ul
-
+# length: 3
+o p
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-le
-
-
-
-# name: <cell-element>
-# type: sq_string
-# elements: 1
-# length: 2
-es
-
+# length: 3
+p q
 
 
 # name: <cell-element>
 # type: sq_string
 # elements: 1
-# length: 2
-s!
+# length: 3
+q r
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+r s
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+s t
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+t u
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+u v
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+v w
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+w x
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+x y
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+y z
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+z m
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+m n
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+n r
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+r u
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+u l
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+l e
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 3
+e s
 
 
 

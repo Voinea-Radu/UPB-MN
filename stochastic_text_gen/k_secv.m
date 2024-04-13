@@ -4,5 +4,10 @@ function B = k_secv (A, k)
   % fie [a b a b c] si k=2
   % trebuie să întoarcă [ab ba ab bc]
   % HINT: folosiți strjoin 
-  B = cellfun(@(x) strjoin(x, ''), arrayfun(@(i) A(i:i+k-1), 1:length(A)-k+1, 'UniformOutput', false), 'UniformOutput', false);
+  n = length(A);
+  B = cell(1, n-k);
+  for i = 1:(n-k)
+    B{i} = strjoin(A(i:i+k-1), ' ');
+  end
+  B = B';
 endfunction
