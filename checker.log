@@ -14,34 +14,34 @@ Task 1. Anomaly Detection
 [estimate_gaussian_3]: 1p / 1p (OK)
 [estimate_gaussian_4]: 1p / 1p (OK)
 [estimate_gaussian_5]: 1p / 1p (OK)
-[multivariate_gaussian_1]: 0p / 1p (WA)
-[multivariate_gaussian_2]: 0p / 1p (WA)
-[multivariate_gaussian_3]: 0p / 1p (WA)
-[multivariate_gaussian_4]: 0p / 1p (WA)
-[multivariate_gaussian_5]: 0p / 1p (WA)
-[optimal_threshold_1]: 0p / 1p (WA)
-[optimal_threshold_2]: 0p / 1p (WA)
-[optimal_threshold_3]: 0p / 1p (WA)
-[optimal_threshold_4]: 0p / 1p (WA)
-[optimal_threshold_5]: 0p / 1p (WA)
-[identify_outliers_1]: 0p / 1p (WA)
-[identify_outliers_2]: 0p / 1p (WA)
-[identify_outliers_3]: 0p / 1p (WA)
-[identify_outliers_4]: 0p / 1p (WA)
-[identify_outliers_5]: 0p / 1p (WA)
+[multivariate_gaussian_1]: 1p / 1p (OK)
+[multivariate_gaussian_2]: 1p / 1p (OK)
+[multivariate_gaussian_3]: 1p / 1p (OK)
+[multivariate_gaussian_4]: 1p / 1p (OK)
+[multivariate_gaussian_5]: 1p / 1p (OK)
+[optimal_threshold_1]: 1p / 1p (OK)
+[optimal_threshold_2]: 1p / 1p (OK)
+[optimal_threshold_3]: 1p / 1p (OK)
+[optimal_threshold_4]: 1p / 1p (OK)
+[optimal_threshold_5]: 1p / 1p (OK)
+[identify_outliers_1]: 1p / 1p (OK)
+[identify_outliers_2]: 1p / 1p (OK)
+[identify_outliers_3]: 1p / 1p (OK)
+[identify_outliers_4]: 1p / 1p (OK)
+[identify_outliers_5]: 1p / 1p (OK)
 
-=> TOTAL: 5p / 20p
+=> TOTAL: 20p / 20p
 
 
 Task 2. Kernel Regression
 -------------------------
 
-[test-kernel-functions]: 0p / 1p (WA)
-[build-kernel1]: 0p / 1p (WA)
-[build-kernel2]: 0p / 1p (WA)
-[build-kernel3]: 0p / 1p (WA)
-[build-kernel4]: 0p / 1p (WA)
-[test-cholesky-func]: 0p / 0.5p (WA)
+[test-kernel-functions]: 1p / 1p (OK)
+[build-kernel1]: 1p / 1p (OK)
+[build-kernel2]: 1p / 1p (OK)
+[build-kernel3]: 1p / 1p (OK)
+[build-kernel4]: 1p / 1p (OK)
+[test-cholesky-func]: 0.5p / 0.5p (OK)
 [test-lower-inverse]: 0p / 0.5p (WA)
 [test-get-prediction-params]: 0p / 2p (WA)
 [test-get-prediction-params2]: 0p / 2p (WA)
@@ -52,7 +52,7 @@ Task 2. Kernel Regression
 [test-dataset3]: 0p / 5p (WA)
 [test-dataset4]: 0p / 5p (WA)
 
-=> TOTAL: 0p / 35.0p
+=> TOTAL: 5.5p / 35.0p
 
 
 Task 3. Stochastic Text Generation
@@ -74,7 +74,7 @@ Task 3. Stochastic Text Generation
 => TOTAL: 1p / 45p
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-FINAL SCORE: 6p / 100.0p
+FINAL SCORE: 26.5p / 100.0p
 Up to 10p can be awarded for providing a good README and clean code!
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
