@@ -59,11 +59,11 @@ Task 3. Stochastic Text Generation
 ----------------------------------
 
 [test-split-input]: 1p / 1p (OK)
-[test-piatza-distinct-words]: 0p / 2p (WA)
-[test-abc-distinct-words]: 0p / 1p (WA)
+[test-piatza-distinct-words]: 2p / 2p (OK)
+[test-abc-distinct-words]: 1p / 1p (OK)
 [test-abc-k-secv-2]: 0p / 3p (WA)
 [test-abc-k-secv-3]: 0p / 3p (WA)
-[test-abc-distinct-k-secv]: 0p / 3p (WA)
+[test-abc-distinct-k-secv]: 3p / 3p (OK)
 [test-poe-distinct-k-secv-and-distinct-words]: 0p / 3p (WA)
 [test-poe-word-idx]: 0p / 4p (WA)
 [test-poe-word-idx-and-k-secv-idx]: 0p / 4p (WA)
@@ -71,10 +71,10 @@ Task 3. Stochastic Text Generation
 [test-poe-stochastic-matrix]: 0p / 7p (WA)
 [test-jekyllandhyde-stochastic-matrix]: 0p / 9p (WA)
 
-=> TOTAL: 1p / 45p
+=> TOTAL: 7p / 45p
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-FINAL SCORE: 56.0p / 100.0p
+FINAL SCORE: 62.0p / 100.0p
 Up to 10p can be awarded for providing a good README and clean code!
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
