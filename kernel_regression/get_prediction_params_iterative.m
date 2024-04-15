@@ -6,5 +6,5 @@ function [a] = get_prediction_params_iterative(K, y, lambda)
 
 	v = L \ y;
 	a = L.' \ v;
-
+	
 end
