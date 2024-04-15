@@ -1,4 +1,5 @@
 function tokens = split_input (filePath)
+	
 	fid = fopen(filePath, 'r');
 	rough_tokens = textscan(fid, '%s'){1, 1};
 	tokens = {};
@@ -28,4 +29,5 @@ function tokens = split_input (filePath)
 	endfor
 
 	tokens = tokens';
+
 endfunction

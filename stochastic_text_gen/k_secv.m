@@ -1,4 +1,5 @@
 function B = k_secv (A, k)
+    
     n = length(A);
     B = cell(1, n - k);
 
@@ -7,4 +8,5 @@ function B = k_secv (A, k)
     end
 
     B = B';
+
 endfunction

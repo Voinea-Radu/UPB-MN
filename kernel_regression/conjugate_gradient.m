@@ -1,4 +1,5 @@
 function [x] = conjugate_gradient (A, b, x0, tol, max_iter)
+    
     n = length(b);
     x = x0;
     r = b - A * x;

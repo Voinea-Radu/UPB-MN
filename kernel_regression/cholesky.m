@@ -1,9 +1,9 @@
 function [L] = cholesky (A)
+    
     n = size(A, 1);
     L = zeros(n, n);
 
     for i = 1:n
-
         for j = 1:i
 
             if i == j
@@ -13,7 +13,6 @@ function [L] = cholesky (A)
             endif
 
         endfor
-
     endfor
 
 endfunction

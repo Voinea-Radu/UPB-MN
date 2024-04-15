@@ -1,4 +1,5 @@
 function retval = stochastic_matrix(k_secv_corpus, corpus_words, words_set, k_secv_set, k)
+	
 	stochastic_matrix = zeros(length(corpus_words) - k, length(words_set));
 
 	for i = 1:length(k_secv_corpus)
@@ -12,4 +13,5 @@ function retval = stochastic_matrix(k_secv_corpus, corpus_words, words_set, k_se
 	stochastic_matrix = stochastic_matrix(any(stochastic_matrix, 2), :);
 
 	retval = sparse(stochastic_matrix);
+
 end

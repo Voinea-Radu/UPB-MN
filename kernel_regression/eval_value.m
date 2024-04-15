@@ -1,4 +1,5 @@
 function pred = eval_value(x, X, f, f_param, a)
+    
     n = size(X, 1);
     pred = 0;
 
