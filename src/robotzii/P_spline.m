@@ -1,9 +1,18 @@
-function y_interp = P_spline (coef, x, x_interp)
-	% si(x)   = ai + bi(x - xi) + ci(x - xi)^2 + di(x - xi)^3, i = 0 : n - 1
-	% coef = [a0, b0, c0, d0, a1, b1, c1, d1, ..., an-1, bn-1, cn-1, dn-1]
-	% x = [x0, x1, ..., xn]
-	% y_interp(i) = P_spline(x_interp(i)), i = 0 : length(x_interp) - 1
-	% Be careful! Indexes in Matlab start from 1, not 0
+function y_interp = P_spline(coef, x, x_interp)
+    n = length(x_interp); % number of intervals
+    y_interp = zeros(size(x_interp)); % initialize output vector
 
-	% TODO: Calculate y_interp using the Spline coefficients
+    for i = 1:n
+		x_current = x_interp(i);
+
+		index = binary_search(x, x_current)
+		display(index);
+
+        % evaluate the spline polynomial on the current interval
+		term = (x_current - x(index));
+
+		index = index - 1;
+
+        y_interp(i) = coef(4 * index + 1) + coef(4 * index + 2) * term + coef(4 * index + 3) * term.^2 + coef(4 * index + 4) * term.^3;
+    end
 end
