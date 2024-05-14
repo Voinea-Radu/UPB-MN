@@ -53,5 +53,5 @@ function coef = spline_c2 (x, y)
 	A(n + 1 + n - 1 + n - 1 + n + 1, 4 * (n - 1) + 4) = 6 * (x(n + 1) - x(n));
 
     % Solve the system of equations
-    coef = inv(A) * b;
+    coef = A \ b
 end
