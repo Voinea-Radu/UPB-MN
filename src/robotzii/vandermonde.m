@@ -1,7 +1,14 @@
 function coef = vandermonde(x, y)
-    % x = [x0, x1, ..., xn]'
-    % y = [y0, y1, ..., yn]'
-    % coef = [a0, a1, a2, ..., an]'
+    A = zeros(length(x), length(x));
+    b = zeros(length(x), 1);
 
-    % TODO: Calculate the Vandermonde coefficients
+    for i = 1:length(x)
+        A(i, 1) = 1;
+        for j = 2:length(x)
+            A(i, j) = x(i) ^ (j - 1);
+        end
+        b(i) = y(i);
+    end
+
+    coef = A \ b;
 endfunction
