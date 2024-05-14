@@ -1,3 +1,7 @@
 function mat = read_mat(path)
-  # TODO: Parse the .csv file and return the matrix of values (without row and column headers).
+  data = csvread(path);
+  
+  data = data(2:end, :);
+  
+  mat = data(:, 2:end);
 end
