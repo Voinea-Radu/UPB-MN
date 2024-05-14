@@ -1,3 +1,7 @@
 function reduced_mat = preprocess(mat, min_reviews)
-  # TODO: Remove all user rows from `mat` that have strictly less then `min_reviews` reviews.
+  review_counts = sum(mat ~= 0, 2);
+  
+  mask = review_counts >= min_reviews;
+  
+  reduced_mat = mat(mask, :);
 end
