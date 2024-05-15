@@ -1,4 +1,3 @@
-% TODO You will have to comment on the results of the spectrogram function in the README.md, for the marked functions in the studio.m. Compare them and explain why do they look like that.
 function [S, f, t] = spectrogram(signal, fs, window_size)
 	signal_length = length(signal);
 	windows_count = floor(signal_length / window_size);
